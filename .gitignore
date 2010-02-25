@@ -1,0 +1,6 @@
+*.swp
+CMake*
+!CMakeLists.txt
+Gravsim
+Makefile
+cmake_install.cmake
