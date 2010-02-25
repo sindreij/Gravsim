@@ -1,0 +1,23 @@
+Gravsim is a little gravity simulator made with SDL and C++.
+I made it to learn SDL and C++ and at the same time refresh
+some physics ;).
+
+Gravsim is licenced under GPL.
+
+Source is aviable on github:
+http://github.com/sindreij/Gravsim
+
+It should compile on Linux and Windows
+
+You need:
+ - cmake
+ - SDL (http://libsdl.org)
+ - SDL_image (http://www.libsdl.org/projects/SDL_image/)
+ - SDL_ttf (http://www.libsdl.org/projects/SDL_ttf/)
+ - SDL_gfx (http://www.ferzkopp.net/joomla/content/view/19/14/)
+
+To compile, run:
+$ cmake .
+$ make
+
+You can contact me at sindreij@gmail.com
