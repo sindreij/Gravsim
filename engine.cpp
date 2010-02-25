@@ -106,7 +106,6 @@ Bilde::Bilde(string filename) {
 #else
 	filename = "data/" + filename;
 #endif
-	cout << filename << endl;
 	surface = SDL_DisplayFormatAlpha(IMG_Load(filename.c_str()));
 }
 
