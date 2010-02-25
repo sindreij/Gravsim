@@ -33,10 +33,12 @@ const int SCREEN_HEIGHT = 768;
 const int SCREEN_BPP = 32;
 
 int main(int argc, char* argv[]) {
-//	cout << argc << endl;
-//	for (int i = 0; i < argc; i++) {
-//		cout << "'" << argv[i] << "'" << endl;
-//	}
+	cout
+	<<"Gravsim  Copyright (C) 2010  Sindre Johansen" << endl
+	<<"This program comes with ABSOLUTELY NO WARRANTY." << endl
+	<<"This is free software, and you are welcome to redistribute it" << endl
+	<<"under certain conditions." << endl;
+
 #ifdef skjermsparer
 	cout << "test" << endl;
 	cout << argv[1];
