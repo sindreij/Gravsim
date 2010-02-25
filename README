@@ -20,4 +20,13 @@ To compile, run:
 $ cmake .
 $ make
 
+Controls:
+- Left click and drag to make a new earth (the planet start
+  where you left click and get velocity from the length of
+  the line)
+- Right click on a object to delete it. (try to right click on
+  the Sun and observe what happens.
+- Press f to go to fullscreen
+- Press c to clear the screen and delete all the objects.
+
 You can contact me at sindreij@gmail.com
