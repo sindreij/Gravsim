@@ -101,7 +101,6 @@ void World::setVideoMode() {
 
 //Bilde
 Bilde::Bilde(string filename) {
-	cout << filename << endl;
 #ifdef skjermsparer
 	filename = "C:\\Documents and Settings\\6715\\Mine dokumenter\\src\\c++\\gravsim\\Release\\data\\" + filename;
 #else
