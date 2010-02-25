@@ -5,7 +5,7 @@
 #include "SDL.h"
 #include "SDL_image.h"
 #include "SDL_ttf.h"
-#include "SDL_draw.h"
+//#include "SDL_draw.h"
 
 using namespace std;
 
@@ -80,7 +80,7 @@ void PlanetState::render(SDL_Surface* screen){
 	}
 	Uint32 c_white = SDL_MapRGB(screen->format, 255,255,255);
 	if (drawing) {
-		Draw_Line(screen, drawStartX, drawStartY,drawEndX,drawEndY,c_white);
+//		Draw_Line(screen, drawStartX, drawStartY,drawEndX,drawEndY,c_white);
 		earthBilde->applyTo(screen, drawStartX-32, drawStartY-32);
 	}
 }

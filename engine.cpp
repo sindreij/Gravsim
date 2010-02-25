@@ -1,4 +1,5 @@
 #include <string>
+#include <iostream>
 #include "SDL.h"
 #include "SDL_image.h"
 #include "SDL_ttf.h"
@@ -82,11 +83,13 @@ void World::setVideoMode() {
 
 //Bilde
 Bilde::Bilde(string filename) {
+	cout << filename << endl;
 #ifdef skjermsparer
 	filename = "C:\\Documents and Settings\\6715\\Mine dokumenter\\src\\c++\\gravsim\\Release\\data\\" + filename;
 #else
-	filename = "data\\" + filename;
+	filename = "data/" + filename;
 #endif
+	cout << filename << endl;
 	surface = SDL_DisplayFormatAlpha(IMG_Load(filename.c_str()));
 }
 

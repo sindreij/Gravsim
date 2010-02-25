@@ -15,11 +15,12 @@ const int SCREEN_HEIGHT = 768;
 const int SCREEN_BPP = 32;
 
 int main(int argc, char* argv[]) {
-	cout << argc << endl;
-	for (int i = 0; i < argc; i++) {
-		cout << "'" << argv[i] << "'" << endl;
-	}
+//	cout << argc << endl;
+//	for (int i = 0; i < argc; i++) {
+//		cout << "'" << argv[i] << "'" << endl;
+//	}
 #ifdef skjermsparer
+	cout << "test" << endl;
 	cout << argv[1];
 	if (argc > 1 && !strcmp(argv[1], "/p"))
 		return 0;  //Gidder ikke kjøre preview
