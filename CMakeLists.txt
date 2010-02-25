@@ -10,9 +10,9 @@ include_directories(${SDL_INCLUDE_DIR}
   ${SDLTTF_INCLUDE_DIR} 
   ${SDLIMAGE_INCLUDE_DIR})
 
-set_source_files_properties(planets.cpp engine.cpp objects.cpp states.cpp COMPILE_FLAGS -ggdb)
+#set_source_files_properties(gravsim.cpp engine.cpp objects.cpp states.cpp COMPILE_FLAGS -ggdb)
 
-add_executable (Gravsim planets.cpp engine.cpp objects.cpp states.cpp)
+add_executable (Gravsim gravsim.cpp engine.cpp objects.cpp states.cpp)
 
 target_link_libraries(Gravsim 
   ${OPTIONAL_LIBS} 
